@@ -26,6 +26,10 @@ const config = {
       },
     },
     extend: {
+      screens: {
+        "3xl": "2000px",
+        "4xl": "2800px",
+      },
       colors: {
         black: {
           DEFAULT: "#000",
