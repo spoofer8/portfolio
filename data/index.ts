@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/matrix.jpg",
     spareImg: "",
   },
   {
@@ -80,11 +80,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "FileFlow - File Sharing App",
+    des: "A peer to peer file sharing app built with Python and PeerJS.",
+    img: "/imagebetter.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://fileflow.aqib.cloud",
   },
   {
     id: 3,
