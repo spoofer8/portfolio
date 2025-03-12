@@ -2,6 +2,8 @@
 
 import { navItems } from "@/data";
 
+export const runtime = "edge";
+
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
