@@ -112,6 +112,7 @@ export const workExperience = [
     desc: "Conducted penetration testing on networks and infrastructure to identify vulnerabilities.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
+    detailDesc: "More detailed info about this role... this is some more text to test the overflow of the card. I am not sure how it will look but I hope it looks good. I am trying to make it look good. I am going to keep typing until I am satisfied with the length of the text. I hope this is enough text to test the overflow of the card.",
   },
   {
     id: 2,
@@ -119,6 +120,7 @@ export const workExperience = [
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
+    detailDesc: "Additional background and responsibilities...",
   },
   {
     id: 3,
@@ -126,6 +128,7 @@ export const workExperience = [
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
+    detailDesc: "Additional background and responsibilities...",
   },
   {
     id: 4,
@@ -133,6 +136,7 @@ export const workExperience = [
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
+    detailDesc: "More detailed info about this role...",
   },
 ];
 
