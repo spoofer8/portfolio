@@ -113,7 +113,7 @@ export const workExperience = [
     desc: "Conducted penetration testing on networks and infrastructure to identify vulnerabilities.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
-    detailDesc: "More detailed info about this role... this is some more text to test the overflow of the card. I am not sure how it will look but I hope it looks good. I am trying to make it look good. I am going to keep typing until I am satisfied with the length of the text. I hope this is enough text to test the overflow of the card.",
+    detailDesc: "● Responsible for introducing new automations to improve the efficiency of the school.\n● Responsible for organising school prefects, assigning duties, head meetings, and speaking with teachers to discuss any issues.\n● Utilised many tools to test the security of the digital infrastructure of the school\n\to Involved capturing WiFi handshakes using an Evil Twin WiFi access point.\n\to Involved enumerating the network using Nmap.\n\to Involved brute forcing weak passwords for surveillance cameras using Hydra.\n\to Finally, writing up all of my findings and areas of weak security into a write-up and handing it over to the headteacher, explaining the necessary changes required to enhance their security.\n● Used Python to create graphical programs that are currently being used for behaviour management and reward tracking throughout both primary and secondary.\n\to Utilised Tkinter to make the GUI feel modern and polished.\n● Helped to set up and manage the Chromebooks whilst also maintaining the highest security to protect the privacy of the students.",
   },
   {
     id: 2,

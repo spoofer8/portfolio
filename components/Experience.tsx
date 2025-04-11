@@ -45,7 +45,17 @@ const Experience = () => {
                   {card.title}
                 </h1>
                 <p className="text-start text-white-100 mt-3 font-semibold">
-                  {card.desc}
+                  {card.desc.split("\n").map((line, index) => (
+                    <React.Fragment key={index}>
+                      {line.split("\t").map((segment, i) => (
+                        <React.Fragment key={i}>
+                          {i > 0 && <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>}
+                          {segment}
+                        </React.Fragment>
+                      ))}
+                      <br />
+                    </React.Fragment>
+                  ))}
                 </p>
               </div>
               <button
@@ -75,6 +85,8 @@ const Experience = () => {
                     background: "linear-gradient(90deg, rgba(4,7,29,0.8) 0%, rgba(12,14,35,0.8) 100%)",
                     borderRadius: "calc(1.75rem * 0.96)",
                     border: "2px solid rgba(255,255,255,0.2)",
+                    maxHeight: "90vh", // Limit height to 90% of the viewport
+                    overflowY: "auto", // Enable vertical scrolling
                   }}
                   className="mx-auto w-[95%] lg:w-[50%] flex flex-col lg:flex-row lg:items-center p-6 md:p-10 gap-4 relative"
                 >
@@ -92,7 +104,19 @@ const Experience = () => {
                   <div className="lg:ms-5">
                     <h2 className="text-xl md:text-2xl font-bold mb-2">{card.title}</h2>
                     <p className="mb-2">{card.desc}</p>
-                    <p className="mb-4">{card.detailDesc}</p>
+                    <p className="mb-4">
+                      {card.detailDesc.split("\n").map((line, index) => (
+                        <React.Fragment key={index}>
+                          {line.split("\t").map((segment, i) => (
+                            <React.Fragment key={i}>
+                              {i > 0 && <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>}
+                              {segment}
+                            </React.Fragment>
+                          ))}
+                          <br />
+                        </React.Fragment>
+                      ))}
+                    </p>
                   </div>
                 </div>
               </motion.div>
