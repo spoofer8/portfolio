@@ -48,6 +48,12 @@ const Experience = () => {
                   {card.desc}
                 </p>
               </div>
+              <button
+                className="mt-4 lg:mt-0 lg:absolute lg:bottom-4 lg:right-4 bg-purple-600 text-white px-4 py-2 rounded-lg font-bold hover:bg-purple-700"
+                onClick={() => setSelected(card.id)}
+              >
+                Click to View More
+              </button>
             </div>
           </Button>
         ))}
