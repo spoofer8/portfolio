@@ -70,7 +70,7 @@ const Experience = () => {
                     borderRadius: "calc(1.75rem * 0.96)",
                     border: "2px solid rgba(255,255,255,0.2)",
                   }}
-                  className="flex flex-col lg:flex-row lg:items-center p-6 md:p-10 gap-4 relative"
+                  className="mx-auto w-[95%] lg:w-[50%] flex flex-col lg:flex-row lg:items-center p-6 md:p-10 gap-4 relative"
                 >
                   <button
                     className="absolute top-2 right-2 text-black dark:text-white"
