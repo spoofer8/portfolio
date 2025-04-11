@@ -113,31 +113,31 @@ export const workExperience = [
     desc: "Conducted penetration testing on networks and infrastructure to identify vulnerabilities.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
-    detailDesc: "● Responsible for introducing new automations to improve the efficiency of the school.\n● Responsible for organising school prefects, assigning duties, head meetings, and speaking with teachers to discuss any issues.\n● Utilised many tools to test the security of the digital infrastructure of the school\n\to Involved capturing WiFi handshakes using an Evil Twin WiFi access point.\n\to Involved enumerating the network using Nmap.\n\to Involved brute forcing weak passwords for surveillance cameras using Hydra.\n\to Finally, writing up all of my findings and areas of weak security into a write-up and handing it over to the headteacher, explaining the necessary changes required to enhance their security.\n● Used Python to create graphical programs that are currently being used for behaviour management and reward tracking throughout both primary and secondary.\n\to Utilised Tkinter to make the GUI feel modern and polished.\n● Helped to set up and manage the Chromebooks whilst also maintaining the highest security to protect the privacy of the students.",
+    detailDesc: "● Utilised many tools to test the security of the digital infrastructure of the school\no Involved capturing WiFi handshakes using an Evil Twin WiFi access point.\no Involved enumerating the network using Nmap.\no Involved brute forcing weak passwords for surveillance cameras using Hydra.\no Finally, writing up all of my findings and areas of weak security into a write-up and handing it over to the headteacher, explaining the necessary changes required to enhance their security.",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Bookkeeping & IT Assistant",
+    desc: "Configured many services to ensure a smooth workflow for the company.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
-    detailDesc: "Additional background and responsibilities...",
+    detailDesc: "● Creating a website to advertise accounting solutions.\n● Configuring a Linux server to host work-related backups and remote access to programs.\n\to Utilised Syncthing to securely sync important documents to the server for backups.\n\to Utilised Kasm Workspaces to securely host an RDP server.\n● Configured a multitude of programs on Proxmox, such as Nextcloud in order to backup sensitive files to my rack-mounted Intel Xeon server.\n● Self-hosted Authentik (an open source identity provider) and configured it to use SSO on all of the applications on my server.\n● Self-hosted Vaultwarden to manage credentials and Jellyfin as a media server.\n● Utilised Cloudflare Tunnels in order to make all of my self-hosted programs accessible outside of my network without compromising on security.\n● Keying in invoices into Sage Accounts and Microsoft Excel.\n● Configuring networking and deployment of various programs to increase efficiency.",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Lead Programmer",
+    desc: "The lead programmer for a team of 5 developers on the AstroPi project.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
-    detailDesc: "Additional background and responsibilities...",
+    detailDesc: "● Working under time pressure in order to meet deadlines.\n● Setting up a cloud coding environment in order to collaborate with writing Python code.\n\to Self hosting a VNC to collaborate on a single VS Code instance.\n● Communicating efficiently with peers in order to write efficient code.\n\to Setting up times to meet/call to work on the project.\n\to Brainstorming ideas on how to achieve our goals.\n● Writing clear and concise code with relevant comments in order to make debugging simple.\n● Optimising code to achieve the most efficiency.",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Head IT Manager",
+    desc: "Head IT Manager for a secondary school, responsible for the IT department.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
-    detailDesc: "More detailed info about this role...",
+    detailDesc: "● Responsible for introducing new automations to improve the efficiency of the school.\n● Responsible for organising school prefects, assigning duties, head meetings, and speaking with teachers to discuss any issues.\n● Used Python to create graphical programs that are currently being used for behaviour management and reward tracking throughout both primary and secondary.\n\to Utilised Tkinter to make the GUI feel modern and polished.\n● Helped to set up and manage the Chromebooks whilst also maintaining the highest security to protect the privacy of the students.",
   },
 ];
 
