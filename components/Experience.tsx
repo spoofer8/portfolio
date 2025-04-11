@@ -88,7 +88,7 @@ const Experience = () => {
                     maxHeight: "90vh", // Limit height to 90% of the viewport
                     overflowY: "auto", // Enable vertical scrolling
                   }}
-                  className="mx-auto w-[95%] lg:w-[50%] flex flex-col lg:flex-row lg:items-center p-6 md:p-10 gap-4 relative"
+                  className="mx-auto w-[95%] h-[69%] lg:h-auto lg:w-[50%] flex flex-col lg:flex-row lg:items-center p-6 md:p-10 gap-4 relative translate-y-[20px] lg:translate-y-0"
                 >
                   <button
                     className="absolute top-2 right-2 text-black dark:text-white"
